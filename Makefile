@@ -10,7 +10,7 @@ OCP_RELEASE=4.5.7
 RHCOS_RELEASE=4.5.6
 RHCOS_RELEASE_MINOR=$(shell echo $(RHCOS_RELEASE) | egrep -o 4\.[0-9]+)
 
-CONTAINER_NAME=docker.io/cmon2k/openshift-toolbox
+CONTAINER_NAME=docker.io/netactiv/openshift-toolbox
 CONTAINER_TAG=$(OPENSHIFT_RELEASE)
 
 DEPLOYMENT_TYPE=okd
